@@ -1,0 +1,33 @@
+.movie-catalog {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 25px;
+
+  .ant-card-cover {
+    img {
+      height: 350px !important;
+    }
+  }
+
+  .ant-card-meta-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .ant-col-xs-6 {
+    width: 33.33% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ant-col-xs-6 {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .ant-col-xs-6 {
+    width: 100% !important;
+  }
+}

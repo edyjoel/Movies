@@ -1,0 +1,31 @@
+.menu-top {
+  display: flex;
+
+  &__logo {
+    display: flex;
+    margin-right: 40px;
+
+    svg {
+      width: 40px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .ant-layout-header {
+    height: auto !important;
+  }
+
+  .menu-top__logo {
+    flex-wrap: wrap;
+    margin-right: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .ant-menu-item {
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+.search {
+  z-index: 1;
+  margin: 50px 0;
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  input {
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50px;
+    padding: 30px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ant-col-offset-6 {
+    margin: auto !important;
+    float: none;
+    margin-top: 80px !important;
+    padding: 20px !important;
+  }
+
+  .search h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}

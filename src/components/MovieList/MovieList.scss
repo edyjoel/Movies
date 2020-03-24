@@ -1,0 +1,44 @@
+.movie-list {
+  width: 90%;
+  margin: 0 auto !important;
+  margin-top: 50px !important;
+  border-color: #001529 !important;
+
+  .ant-list-header {
+    background-color: #001529;
+    h2 {
+      text-align: center;
+      margin: 0;
+      color: white;
+    }
+  }
+
+  .ant-list-items {
+    height: 500px;
+    overflow-y: scroll;
+  }
+
+  &__movie {
+    .ant-list-item-meta {
+      align-items: center;
+    }
+
+    .ant-list-item-meta-title {
+      margin: 0;
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .movie-list .ant-list-header h2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .ant-col-12 {
+    width: 100% !important;
+  }
+}
